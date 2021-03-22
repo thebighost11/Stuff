@@ -1,3 +1,0 @@
-Get-ExecutionPolicy
-Set-ExecutionPolicy RemoteSigned  //if no exec perm
- iex(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/securethelogs/RedRabbit/master/redrabbit.ps1")  //other uRL  https://raw.githubusercontent.com/securethelogs/RedRabbit/master/RedRabbit%20v5/redrabbit.ps1 
