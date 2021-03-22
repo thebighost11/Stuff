@@ -1,0 +1,14 @@
+#nmap 192.168.1.1
+#nmap Url
+#nmap 192.168.16.6 192.168.16.2 192.168.16.8
+#nmap 192.168.10,.0-255
+#nmap 192.168.1.*
+#nmap 192.168.1.0/24
+#nmap -sS 192.168.1.3 //Port
+#cat > /host.txt
+#nmap 192.168.1.0/24 --exclude 192.168.1.5
+#nmap 192.168.1.0/24 --exclude 192.168.1.5,192.168.1.254 9
+#nmap -O 192.168.1.3nmap -v -O --osscan-guess 192.168.1.1 //Detect the operating system of a machine
+#nmap -sP 192.168.1.0/24 //Waken machines
+#nmap -p 80 192.168.1.3 //Ports Analysts
+#nmap -p 80,443 192.168.1.1 //Ports Analysts
