@@ -1,0 +1,17 @@
+/**
+* Move forward.
+*/
+void AFirstPersonCharacter::MoveForward(float value)
+{
+ AddMovementInput(GetActorForwardVector(), value * MOVE_FORWARD_RATE * _sprintMultiplier);
+}
+
+/**
+* Move right.
+*/
+void AFirstPersonCharacter::MoveRight(float value)
+{
+ AddMovementInput(GetActorRightVector(), value * MOVE_RIGHT_RATE * _sprintMultiplier);
+}
+
+
